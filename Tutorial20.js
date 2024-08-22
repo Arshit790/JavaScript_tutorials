@@ -7,7 +7,7 @@
 
 // ! To overcome the problem of global scope pollution -- IIFE
 
-// ! Below function giving error because of not telling the context stoppage , to remove this use ";"
+// ! Below function giving er ror because of not telling the context stoppage , to remove this use ";"
 
 ((name) => {
   // * Unnamed IIFE
