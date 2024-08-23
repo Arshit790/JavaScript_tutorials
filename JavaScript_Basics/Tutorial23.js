@@ -1,8 +1,9 @@
+// ? Tutorial 23
 // Filter map reduce
 
 // const coding = ["js","ruby","python","java","cpp"] // Doesn't return values
 // const values = coding.forEach((item)=>{
-//     // console.log(item)
+//   console.log(item)
 //     return item
 // })
 
