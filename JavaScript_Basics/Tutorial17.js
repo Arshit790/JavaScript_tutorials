@@ -1,3 +1,5 @@
+// ? Tutorial 17
+
 function calculateCartPrice(val1,val2,...num1){ //rest operator ...
   return num1
 }
