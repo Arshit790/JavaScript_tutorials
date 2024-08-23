@@ -1,3 +1,4 @@
+// ? Tutorial 18
 // Scope Level
 //var c = 300  // ! global scope
 
