@@ -1,3 +1,5 @@
+//? Tutorial 2
+
 /* Data Types */
 
 "use strict"; // treat all js as newer JS version (it cant be disabled again)
