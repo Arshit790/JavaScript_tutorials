@@ -1,4 +1,5 @@
- // objects destructuring 
+// ? Tutorial 15
+// objects destructuring 
 
 const course = {
   coursename : "js in hindi",
