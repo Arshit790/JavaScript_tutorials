@@ -1,3 +1,5 @@
+//? Tutorial 3
+
 let score1 = "33abc" // it becomes not a number (NaN)
 
 console.log(typeof score1)
