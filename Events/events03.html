@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async JS</title>
+</head>
+<body style="background-color: #414141; color: aliceblue;">
+    <h1>Chai aur JavaScript</h1>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+</body>
+<script>
+    const sayDate = function(str){
+        console.log(str,Date.now())
+    }
+    let interval;
+
+    document.querySelector('#start').addEventListener('click',function(){
+        interval = setInterval(sayDate,1000,"Hello")
+    })
+
+    document.querySelector("#stop").addEventListener('click',function(){
+        clearTimeout(interval)
+    })
+
+</script>
+</html>
