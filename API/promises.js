@@ -107,3 +107,10 @@ fetch('https://api.github.com/users/hiteshchoudhary')
 .catch((error)=>{
 console.log(error)
 })
+
+
+
+// !interview alert 
+
+// !Error-404 in Prmoise handled in resolve or reject ?
+// ?its in response and error is generated when browser is not requesting any resource
