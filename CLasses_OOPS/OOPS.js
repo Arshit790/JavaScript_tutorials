@@ -42,4 +42,4 @@ console.log(userOne instanceof User);
 
 // ! Constructor = tells about the refernce of self
 
-//! Javascipt shows prototypical behavior (ie. when it doent find anything then it searches to upper layer and goes on and on......)
+//! Javascipt shows prototypical behavior (ie. when it doent find anything then it searches to upper layer and goes on and on......until gets null value)
