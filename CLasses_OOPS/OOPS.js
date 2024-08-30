@@ -22,9 +22,9 @@ function User(username, loginCount, isLoggedIn) {
 
   this.loginCount = loginCount;
   this.isLoggedIn = isLoggedIn;
-  this.greetings = function(){
-    console.log(`Welocome ${this.username}`)
-  }
+  this.greetings = function () {
+    console.log(`Welocome ${this.username}`);
+  };
   return this;
 }
 
@@ -32,7 +32,7 @@ const userOne = new User("Lucky", 12, true);
 const userTwo = new User("Arshit", 11, false);
 console.log(userOne.constructor);
 
-console.log(userOne instanceof User)
+console.log(userOne instanceof User);
 // console.log(userTwo);
 
 // ! new keyword working:
@@ -40,6 +40,6 @@ console.log(userOne instanceof User)
 // - Constructor function calls due to new
 // - Arguements in the function injects in this keyword
 
-
 // ! Constructor = tells about the refernce of self
 
+//! Javascipt shows prototypical behavior (ie. when it doent find anything then it searches to upper layer and goes on and on......)
